@@ -1,0 +1,170 @@
+/* ====================== ШРИФТИ =============================== */
+
+/* Підключаємо шрифт Montserrat Alternates з google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+/* Підключаємо шрифт Source Sans Pro */
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/SourceSansPro/SourceSansPro-Regular.woff2") format("woff2"),
+    url("../fonts/SourceSansPro/SourceSansPro-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/SourceSansPro/SourceSansPro-Italic.woff2") format("woff2"),
+    url("../fonts/SourceSansPro/SourceSansPro-Italic.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/SourceSansPro/SourceSansPro-Bold.woff2") format("woff2"),
+    url("../fonts/SourceSansPro/SourceSansPro-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/SourceSansPro/SourceSansPro-BoldItalic.woff2")
+      format("woff2"),
+    url("../fonts/SourceSansPro/SourceSansPro-BoldItalic.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/SourceSansPro/SourceSansPro-Black.woff2") format("woff2"),
+    url("../fonts/SourceSansPro/SourceSansPro-Black.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/SourceSansPro/SourceSansPro-BlackItalic.woff2")
+      format("woff2"),
+    url("../fonts/SourceSansPro/SourceSansPro-BlackItalic.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* ====================== CCS Властивості =============================== */
+* {
+  line-height: 2;
+}
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  padding: 25px;
+}
+a {
+  color: orange;
+}
+div.header > h1 {
+  font-size: 35px;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: blue;
+  text-shadow: 8px 8px 5px #ede305;
+}
+.main-list a {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 0 29px;
+  line-height: 3;
+  text-decoration: underline;
+  text-shadow: -13px -20px 5px #000;
+}
+.main-intro {
+  font-style: italic;
+  font-weight: 700;
+  background-color: pink;
+}
+.main-intro h2 ~ img {
+  margin-left: 480px;
+  width: 500px;
+}
+.main-structure {
+  background-color: cyan;
+  font-style: italic;
+  text-align: left;
+  width: 1000px;
+}
+.main-structure .structure-item {
+  margin-top: -80px;
+}
+.main-structure ul + img {
+  margin-left: 1000px;
+  margin-top: -380px;
+  width: 791px;
+}
+.main-structure h2 {
+  font-weight: 900;
+}
+.main-pcie {
+  background-color: pink;
+  text-align: right;
+}
+.main-pcie h2 {
+  padding: 3%;
+  margin-top: -40px;
+}
+#amd {
+  text-align: justify;
+  width: 80%;
+  box-sizing: content-box;
+  padding: 50px;
+}
+.main-amd,
+.main-intel {
+  font-family: "SourceSansPro", sans-serif;
+  text-decoration: overline;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+.main-game {
+  font-family: "SourceSansPro", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  text-transform: capitalize;
+  text-indent: 25px;
+}
+.main-game h2 {
+  font-family: "SourceSansPro", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.main-supply {
+  font-family: "SourceSansPro", sans-serif;
+  font-weight: 900;
+}
+.main-connect.connect-main {
+  font-family: "SourceSansPro", sans-serif;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+.main-format p {
+  white-space: nowrap;
+  word-spacing: 20px;
+}
+.footer * {
+  font-family: "SourceSansPro", sans-serif;
+  color: blueviolet;
+  font-size: 35px;
+  font-weight: 700;
+  font-style: italic;
+}
